@@ -11,6 +11,17 @@ export default props=>{
             onPress={() =>{ props.navigation.navigate('Home')
             }}>
                 <Avatar source ={{uri:user.avatatURL}}/>
+                <ListItem.Content>
+                <ListItem.Title>{user.Quant}</ListItem.Title>                
+            </ListItem.Content>
+            
+            <ListItem.Chevron
+            name="edit"
+            color="Blue"
+            size={25}
+            onPress={
+                ()=> props.navigation.navigate('UserForm', user)
+            }/>
 
                 
                 
