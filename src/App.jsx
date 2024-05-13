@@ -13,7 +13,7 @@ const Stack = createNativeStackNavigator()
 export default props =>{
     return(
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Home"
+            <Stack.Navigator initialRouteName="UserList"
                 screenOptions={
                     {
                         headerStyle:{
@@ -35,7 +35,7 @@ export default props =>{
                                 <Button
                                 onPress={()=>navigation.navigate("Home")}
                                 type='clear'
-                                icon={<Icon name ="add" size={25} color ="white"/>}
+                                icon={<Icon name ="add" size={25} color =""/>}
                                 />
                             )
                         }
