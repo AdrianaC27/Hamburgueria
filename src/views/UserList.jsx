@@ -23,7 +23,9 @@ export default props=>{
             <ListItem.Subtitle>R$ 19,99</ListItem.Subtitle>
 
             </ListItem.Content>
-            <Icon name="add-circle-sharp"  color="red" />
+            <Icon name="remove-circle"  color="red" />
+            <Text>0</Text>
+            <Icon name="add-circle"  color="red" />
         </ListItem>
         
         <ListItem bottomDivider>
@@ -39,7 +41,9 @@ export default props=>{
             <ListItem.Subtitle>R$ 49,99</ListItem.Subtitle>
 
             </ListItem.Content>
-            <Icon name="add-circle-sharp"  color="red" />
+            <Icon name="remove-circle"  color="red" />
+            <Text>0</Text>
+            <Icon name="add-circle"  color="red" />
 
         </ListItem >
 
@@ -56,7 +60,9 @@ export default props=>{
             <ListItem.Subtitle>R$ 9,99</ListItem.Subtitle>
 
             </ListItem.Content>
-            <Icon name="add-circle-sharp"  color="red" />
+            <Icon name="remove-circle"  color="red" />
+            <Text>0</Text>
+            <Icon name="add-circle" color="red" />
 
         </ListItem>
 
@@ -73,7 +79,9 @@ export default props=>{
             <ListItem.Subtitle>R$ 19,99</ListItem.Subtitle>
 
             </ListItem.Content>
-            <Icon name="add-circle-sharp"  color="red" />
+            <Icon name="remove-circle"  color="red" />
+            <Text>0</Text>
+            <Icon name="add-circle"  color="red" />
 
         </ListItem>
 
@@ -90,7 +98,9 @@ export default props=>{
             <ListItem.Subtitle>R$ 9,99</ListItem.Subtitle>
 
             </ListItem.Content>
-            <Icon name="add-circle-sharp"  color="red" />
+            <Icon name="remove-circle"  color="red" />
+            <Text>0</Text>
+            <Icon name="add-circle"  color="red" />
 
         </ListItem>
 
